@@ -1,0 +1,21 @@
+{
+  "name": "node-projects",
+  "version": "1.0.1",
+  "description": "calculator",
+  "main": "main.js",
+  "type": "module",
+  "bin": {
+    "abdullah-calc":"main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.8.10",
+    "inquirer": "^9.2.11"
+  }
+}
